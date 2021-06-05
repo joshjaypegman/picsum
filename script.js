@@ -1,8 +1,10 @@
-const photo_btn = document.querySelector("photobtn");
-const images = document.querySelector("images");
+const photo_btn = document.querySelector(".photo_btn");
+const images = document.querySelector(".images");
 
-photobtn.addEventListener("click", generate_images);
+photo_btn.addEventListener("click", generate_images);
 function generate_images(){
-    images.innerHTML = <p>hello</p>;
+    console.log("111");
+    images.innerHTML = "<p>Hii</p>";
     
 };
+// generate_images();
