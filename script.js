@@ -1,10 +1,8 @@
-const photo-btn =document.querySelector(".photo-btn");
-const image = document.querySelector(".image");
-function generate-images(){
-    i=0;
-    image.innerHTML = <img src ="https:picsum.photos/200/300?random=1">;
+const photo_btn = document.querySelector("photobtn");
+const images = document.querySelector("images");
+
+photobtn.addEventListener("click", generate_images);
+function generate_images(){
+    images.innerHTML = <p>hello</p>;
     
 };
-
-return generate-images;
-photo-btn.addEventListener("click",function(generate-images){});
